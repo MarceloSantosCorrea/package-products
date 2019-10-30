@@ -1,7 +1,7 @@
 {
     "name": "marcelo-correa/package-products",
     "type": "package",
-    "description": "Package form Laravel",
+    "description": "Package Product Manager for Laravel",
     "authors": [
         {
             "name": "Marcelo Corrêa",
