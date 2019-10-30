@@ -1,0 +1,25 @@
+{
+    "name": "marcelo-correa/gestor-product-category",
+    "type": "package",
+    "description": "Package form Laravel",
+    "authors": [
+        {
+            "name": "Marcelo Corrêa",
+            "email": "marcelocorrea229@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Product\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Product\\Providers\\RouteServiceProvider",
+                "Product\\Providers\\ProductServiceProvider"
+            ]
+        }
+    },
+}
